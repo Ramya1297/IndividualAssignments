@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+    <bean id="StBean" class="com.aop.Student" >
+     <property name="name" value="aaa" />
+     <property name="rollno" value="24"/> 
+     <property name="course" value="adiploma"/> 
+     </bean>
+     
+     
+     <bean id="ara" class="com.aspect.MyMethodBeforeAdvice" />
+ <!-- 
+ 	<bean id="maa" class="com.aspect.MyAroundAdvice" />
+      <bean id="ba" class="com.aspect.MyAfterReturning" />
+             <bean id="tea" class="com.aspect.MyThrow" /> -->
+   
+   <bean id="MyPointcut"
+       	class="org.springframework.aop.support.NameMatchMethodPointcut">
+   <property name="mappedName" value="printName"></property>
+   </bean>
+ 	<bean id="MyAdvisor"
+       	class="org.springframework.aop.support.DefaultPointcutAdvisor">
+   <property name="pointcut" ref="MyPointcut"></property>
+                <property name="advice" ref="ara"></property>
+             
+         </bean>    
+    <bean id="StudentProxy"
+	class="org.springframework.aop.framework.ProxyFactoryBean">
+ 
+	<property name="target" ref="StBean" />
+ 
+	<property name="interceptorNames">
+		<list>
+		     <value>MyAdvisor</value> 
+			<!--  <value>ara</value> 
+			 <value>ba</value>
+			<value>tea</value>  
+ -->		</list>
+	</property>
+    </bean>
+
+</beans>
