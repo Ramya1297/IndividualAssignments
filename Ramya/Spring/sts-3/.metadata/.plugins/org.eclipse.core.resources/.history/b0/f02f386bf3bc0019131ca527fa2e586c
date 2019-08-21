@@ -1,0 +1,11 @@
+package com.rt;
+
+public class CalcB implements Calc{
+
+	@Override
+	public void add() {
+		// TODO Auto-generated method stub
+		System.out.println("adding from b");
+	}
+
+}

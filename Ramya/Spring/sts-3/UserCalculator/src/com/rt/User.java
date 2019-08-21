@@ -1,0 +1,17 @@
+package com.rt;
+
+public class User {
+ Calc calc;
+ public Calc getCalc() {
+	return calc;
+}
+public void setCalc(Calc calc) {
+	this.calc = calc;
+}
+public void Addition(int a,int b) {
+	calc.add(a,b);
+	
+ }
+
+ 
+}

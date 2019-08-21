@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files (1)/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files (1)/spring-aop-4.3.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files (1)/spring-beans-4.3.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files (1)/spring-context-4.3.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files (1)/spring-core-4.3.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files (1)/spring-expression-4.3.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/spring-context-3.2.0.release.jar/spring-context-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-aop-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-beans-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-autoconfigure-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-starter-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-starter-aop-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-starter-cache-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-starter-data-redis-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-starter-json-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-starter-logging-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-starter-test-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-starter-tomcat-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-starter-web-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-test-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-boot-test-autoconfigure-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-context-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-context-support-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-core-2.1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-core-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-data-commons-1.13.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-data-keyvalue-1.2.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-data-redis-1.8.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-expression-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-jcl-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-oxm-4.3.18.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-test-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-tx-4.3.18.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-web-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/jar_files/spring-webmvc-5.1.8.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

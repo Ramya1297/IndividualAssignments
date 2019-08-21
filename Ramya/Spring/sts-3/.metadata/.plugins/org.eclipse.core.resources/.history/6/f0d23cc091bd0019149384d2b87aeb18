@@ -1,0 +1,23 @@
+package com.rt;
+
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+
+public class Bean implements InitializingBean,DisposableBean{
+int counter;
+
+@Override
+public void destroy() throws Exception {
+	// TODO Auto-generated method stub
+	counter++;
+	System.out.println("its destroy"+counter);
+}
+
+@Override
+public void afterPropertiesSet() throws Exception {
+	// TODO Auto-generated method stub
+	counter++;
+	System.out.println("its afterpropset"+counter);
+
+}
+}

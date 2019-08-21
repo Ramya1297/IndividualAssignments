@@ -1,0 +1,9 @@
+package com.rt;
+
+public class HelloWorldDemo {
+public static void main(String args[]) {
+	BeanFactory factory=new XmlBeanFactory(new ClassPathResource("Bean.xml"));
+	HelloWorld h=(HelloWorld) factory.getBean("myBeanId");
+	h.sayHello();
+}
+}

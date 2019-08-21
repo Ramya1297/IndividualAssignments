@@ -1,0 +1,8 @@
+package com.rt;
+
+public class HelloConstrDemo {
+	public static void main(String args[]) {
+		
+		
+	}
+}

@@ -1,0 +1,6 @@
+package com.rt;
+
+public class CalcA implements Calc {
+
+	
+}
