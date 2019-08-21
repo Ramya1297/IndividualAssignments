@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="mycar" class="com.anu.assign.cardemo.Car">
+		<property name="make" value="Honda"></property>
+		<property name="color" value="Red"></property>
+	</bean>
+	<bean id="sedancar" class="com.anu.assign.cardemo.Sedan" parent="mycar">
+		<property name="mode" value="Civic"></property>
+	</bean>
+	<bean id="newcar" class="com.anu.assign.cardemo.Car" parent="mycar" >
+	</bean>
+	<bean id="othercar" class="com.anu.assign.cardemo.Car" parent="mycar" >
+		<property name="color" value="Blue"></property>
+	
+	</bean>
+</beans>
