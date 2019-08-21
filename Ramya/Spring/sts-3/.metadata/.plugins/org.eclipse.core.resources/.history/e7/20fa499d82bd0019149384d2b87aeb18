@@ -1,0 +1,6 @@
+
+public class SalesDept implements Dept {
+	public void getDname() {
+		System.out.println("its sales");
+	}
+}

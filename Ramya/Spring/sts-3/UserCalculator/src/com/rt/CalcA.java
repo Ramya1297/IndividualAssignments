@@ -1,0 +1,13 @@
+package com.rt;
+
+public class CalcA implements Calc {
+
+	@Override
+	public void add(int a,int b) {
+		// TODO Auto-generated method stub
+		System.out.println("Added using calcA");
+		System.out.println(a+b);
+	}
+
+	
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/classes12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/hibernate-validator-4.0.2.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/mysql.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.aop-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.context.support-sources-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.context-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.core-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.jdbc-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.orm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.transaction-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.web.servlet-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/org.springframework.web-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/slf4j-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/slf4j-log4j12-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Desktop/New folder/HelloMVC/WebContent/WEB-INF/lib/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/cglib-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abridge Solutions/Downloads/asm-3.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

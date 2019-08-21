@@ -1,0 +1,9 @@
+
+public class Emp {
+String name;
+int id;
+Dept dname;
+public void getDeptName() {
+	dname.getDname();
+}
+}

@@ -1,0 +1,10 @@
+package com.rt;
+import org.springframework.beans.factory.annotation.AutoWired;
+public class INRtoDollarConverter implements CurrencyConverter{
+	@AutoWired
+	@Override
+	public double ConvertCurrency(double num) {
+		return (num/70);
+	}
+
+}

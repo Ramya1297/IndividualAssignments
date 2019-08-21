@@ -1,0 +1,10 @@
+package com.rt;
+
+public class User {
+ Calc calc;
+ public void Addition() {
+	 calc.add();
+ }
+ 
+ 
+}
