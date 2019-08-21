@@ -1,0 +1,10 @@
+package com.rt;
+
+public class INRtoFrancConverter implements CurrencyConverter{
+
+	@Override
+	public double ConvertCurrency(double num) {
+		return (num/0.013);
+	}
+
+}

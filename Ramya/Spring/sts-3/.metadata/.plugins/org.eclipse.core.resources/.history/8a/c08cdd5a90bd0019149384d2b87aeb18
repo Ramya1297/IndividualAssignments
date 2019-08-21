@@ -1,0 +1,43 @@
+package com.rt.emp;
+
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+
+public class Emp implements InitializingBean, DisposableBean {
+String ename;
+int id;
+Dept dept;
+public Dept getDept() {
+	return dept;
+}
+public void setDept(Dept d) {
+	this.dept=d;
+}
+public void getDeptName() {
+	dept.getDname();
+}
+public String getEname() {
+	return ename;
+}
+public void setEname(String ename) {
+	this.ename = ename;
+}
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+@Override
+public void destroy() throws Exception {
+	// TODO Auto-generated method stub
+	
+}
+@Override
+public void afterPropertiesSet() throws Exception {
+	// TODO Auto-generated method stub
+	
+}
+
+
+}

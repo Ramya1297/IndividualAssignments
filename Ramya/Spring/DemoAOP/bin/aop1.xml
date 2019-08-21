@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+    <bean id="StBean" class="com.rt.Student" >
+     <property name="name" value="aaa" />
+     <property name="rollno" value="24"/> 
+     <property name="course" value="adiploma"/> 
+     </bean>
+     <!-- <bean id="maa" class="sj.advice.MyAroundAdvice" />-->
+      <bean id="ba" class="com.aspect.MyMethodBeforeAdvise" />
+    <!--  <bean id="ara" class="sj.advice.MyAfterAdvice" />
+    <bean id="tea" class="sj.advice.MyThrowsAdvice" /> -->
+     <bean id="StudentProxy"
+	class="org.springframework.aop.framework.ProxyFactoryBean">
+ 
+	<property name="target" ref="StBean" />
+ 
+	<property name="interceptorNames">
+		<list>
+		     <value>ba</value> 
+			 <!-- <value>maa</value> 
+			 <value>ara</value>
+			<value>tea</value>  -->
+		</list>
+	</property>
+    </bean>
+
+</beans>

@@ -1,0 +1,7 @@
+
+public class Emp {
+String name;
+int id;
+Dept dname;
+
+}

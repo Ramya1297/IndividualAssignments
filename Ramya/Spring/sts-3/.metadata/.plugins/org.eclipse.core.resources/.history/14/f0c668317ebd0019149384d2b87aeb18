@@ -1,0 +1,18 @@
+package com.rt;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+
+public class HelloConstrDemo {
+	public static void main(String args[]) {
+		
+		BeanFactory factory=new XmlBeanFactory(new ClassPathResource("Bean.xml"));
+		HelloConstr h=(HelloConstr) factory.getBean("myBeanId1");
+		HelloConstr h1=(HelloConstr) factory.getBean("myBeanId1");
+		h.sayHi();
+		h1.sayHi();
+		System.out.println(h==h1);
+		System.out.println(h.equals(h1));
+	}
+}
