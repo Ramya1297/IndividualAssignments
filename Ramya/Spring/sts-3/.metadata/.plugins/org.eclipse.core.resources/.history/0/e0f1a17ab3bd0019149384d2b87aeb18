@@ -1,6 +1,0 @@
-package com.rt;
-
-public class User {
-String name;
-
-}

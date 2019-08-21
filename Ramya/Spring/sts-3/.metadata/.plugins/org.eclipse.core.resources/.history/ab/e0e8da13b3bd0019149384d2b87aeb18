@@ -1,5 +1,0 @@
-package com.rt;
-
-public interface CurrencyConverter {
-public double getConversion();
-}

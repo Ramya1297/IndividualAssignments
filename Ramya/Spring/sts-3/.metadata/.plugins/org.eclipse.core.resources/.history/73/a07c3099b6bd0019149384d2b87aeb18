@@ -1,7 +1,0 @@
-package com.rt.Test;
-
-public class TestCurrencyConverter {
-public static void main(String args[]) {
-	
-}
-}

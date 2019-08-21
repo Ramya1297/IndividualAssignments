@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;bean.xml&apos; to &apos;EmpDept/src&apos;&#x0D;&#x0A;- Original project: &apos;UserCalculator&apos;&#x0D;&#x0A;- Destination element: &apos;EmpDept/src&apos;&#x0D;&#x0A;- Original element: &apos;bean.xml&apos;" description="Copy file" destination="=EmpDept/src" element1="src/bean.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1565669827840" units="0" version="1.0"/>
-</session>

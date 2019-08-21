@@ -1,5 +1,0 @@
-package com.rt;
-import javax.servlet.http.HttpServletRequest;
-public class Message1 extends AbstractController {
-
-}

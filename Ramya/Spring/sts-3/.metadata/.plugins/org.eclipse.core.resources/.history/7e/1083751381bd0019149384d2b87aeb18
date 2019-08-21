@@ -1,6 +1,0 @@
-
-public class PurchaseDept implements Dept {
-	public void getDname() {
-		System.out.println("its sales");
-	}
-}
