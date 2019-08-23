@@ -1,23 +1,18 @@
-js
-
-
 ts
 Typescript provides optional static typing, classes, and interface. 
 
 
 Why JavaScript?
-Open source project with Microsoft's patronage
+Open source 
 Specially designed tool for small scripts
 Supports classes, interfaces & modules.
 Compiled JavaScript runs in any browser
 Allows cross-compilation
 You can extend JavaScript for writing large apps
 Adds support for classes, interfaces, and modules
-It's a cross-platform language
 It's used for client side and server side
 It's easy to learn and to start with
 It's a dynamic language: flexible and powerful
-You have 'the great freedom' to do whatever you want with any object
 Strong Testing Workflow
 Added Dependencies
 Framework Unsupported
@@ -47,8 +42,6 @@ JavaScript is a scripting language which helps you create interactive web pages
 Typescript is a modern age Javascript development language
 Javascript is a specially designed tool for small scripts
 TypeScript supports JS libraries & API Documentation
-Javascript first version was published in the year 1995
-The typescript was first made public in the year 2012
 It's used for client side and server side
 Typescript offered great productivity for developers
 Javascript is a Lightweight, interpreted, object-oriented language with first-class functions
