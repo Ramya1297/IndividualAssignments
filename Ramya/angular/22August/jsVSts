@@ -1,0 +1,60 @@
+ts
+Typescript provides optional static typing, classes, and interface. 
+
+
+Why JavaScript?
+Open source 
+Specially designed tool for small scripts
+Supports classes, interfaces & modules.
+Compiled JavaScript runs in any browser
+Allows cross-compilation
+You can extend JavaScript for writing large apps
+Adds support for classes, interfaces, and modules
+It's used for client side and server side
+It's easy to learn and to start with
+It's a dynamic language: flexible and powerful
+Strong Testing Workflow
+Added Dependencies
+Framework Unsupported
+
+Why Typescript?
+TypeScript supports JS libraries & API Documentation
+It is a superset of Javascript
+It is optionally typed scripting language
+TypeScript Code can be converted into plain JavaScript Code
+Better code structuring and object-oriented programming techniques
+Allows better development time tool support
+It can extend the language beyond the standard decorators, async/await
+Maintainability
+Offered great productivity for developers
+Code navigation and bug prevention
+Code 'discoverability' & refactoring
+Optional Static Type Annotation / Static Typing
+Additional Features for Functions
+Supports ES6
+Supports interfaces, sub-interfaces, classes, and subclasses
+Scalable HTML5 client-side development
+Rich IDE available with autocomplete and code navigation features.
+Class-based object-oriented with the inheritance of private members and interfaces.
+
+
+JavaScript is a scripting language which helps you create interactive web pages
+Typescript is a modern age Javascript development language
+Javascript is a specially designed tool for small scripts
+TypeScript supports JS libraries & API Documentation
+It's used for client side and server side
+Typescript offered great productivity for developers
+Javascript is a Lightweight, interpreted, object-oriented language with first-class functions
+Typescript is a powerful type system, including generics & JS features
+For small size project Javascript is an ideal option, but for large size project you can use Typescript
+
+
+Difference between TypeScript and JavaScript:
+
+TypesScript is known as Object oriented programming language whereas JavaScript is a scripting language.
+TypeScript has a feature known as Static typing but JavaScript does not have this feature.
+TypeScript gives support for modules whereas JavaScript does not support modules.
+TypeScript has Interface but JavaScript does not have Interface.
+TypeScript support optional parameter function but JavaScript does not support optional parameter function.
+
+TypeScript does not support abstract classes.
