@@ -9,6 +9,7 @@ import { ValidateAccountPipe } from './validate-account.pipe';
 import { CheckMatchPipe } from './check-match.pipe';
 import { DifferPipe } from './differ.pipe';
 import { DisableRightClickDirective } from './disable-right-click.directive';
+import { HttpClientModule } from '@angular/common/http'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { DisableRightClickDirective } from './disable-right-click.directive';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
