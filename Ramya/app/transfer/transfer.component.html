@@ -1,0 +1,43 @@
+
+   <div class="container" (contextmenu)="handleClick()" oncontextmenu="return false">
+        <form class="form-horizontal" role="form">
+            <h2>Fund Transfer</h2>
+                        <div class="form-group">
+                                <label for="from_acc_num" class="col-sm-3 control-label">Enter your Account number</label>
+                            <div class="col-sm-9">
+                            <input type="text" [(ngModel)]="from_acc_num" [ngModelOptions]="{standalone: true}"/>
+                            <span style="color: red">{{from_acc_num|validateAccount}}</span> 
+                            </div>
+                        </div>
+                        <div class="form-group">            
+                                <label for="to_acc_num" class="col-sm-3 control-label"> Account number of receiver</label>
+                            <div class="col-sm-9">
+                            <input type="text" #toacc [(ngModel)]="to_acc_num" [ngModelOptions]="{standalone: true}"/>
+                            <span style="color: red">{{toacc|differ:from_acc_num:to_acc_num}}</span> 
+                            </div>
+                        </div>
+
+                        <div class="form-group"> 
+                                <label for="check" class="col-sm-3 control-label">Re-Enter Account number of receiver </label>
+                             <div class="col-sm-9">
+                             <input type="text" #acc [(ngModel)]="check" [ngModelOptions]="{standalone: true}"/>
+                            <span style="color: red">{{acc|checkMatch:to_acc_num:check }}</span> 
+                            <br>
+                            </div>
+                        </div>
+                            
+                        <div class="form-group">   
+                                <label for="amount" class="col-sm-3 control-label">Enter the amount </label>
+                            <div class="col-sm-9">
+                            <input type="number" [(ngModel)]="amount" [ngModelOptions]="{standalone: true}"/><br><br>
+                        </div>
+                    </div>
+                            <br>
+                            <div class="form-group">  
+                                    <div class="col-lg-8">
+                            <button class="btn btn-primary" (click)="click()">Transfer</button>
+                        </div>
+                   
+
+                 
+                    </div>
